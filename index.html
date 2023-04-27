@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./mystyle.css">
+    <title>GAME</title>
+</head>
+<body id="body">
+    <div class="play">
+        <p class="play1" id="back"><button class="btn">Play Again</button></p>
+        <p>(Between 1 and 100)</p>
+    </div>
+
+
+    <div class="guess">Guess The Number!</div>
+
+
+    <div class="on">
+        <div class="box" id="picture">
+           <div class="img1">?</div> 
+        </div>
+        <div class="hori"> </div>
+    </div>
+
+    <div class="left-right">
+
+        <div class="right">
+            <div >
+                <input type="number" id="box1" class="box1">
+            </div>
+            <button class="play2"  onclick="check()">Check!</button>
+        </div>
+
+
+        <div class="left">
+            <div id="comment" class="low">Start Guessing...</div>
+            <div class="top">
+                <div>
+                    <img src="./hundred-points_1f4af.png" class="img2" >
+                </div>
+                <div id="play" class="chance">Chance:100</div>
+
+            </div>
+
+            <div class="top">
+                <div>
+                    <img src="./medal.jpg" class="img2" >
+                </div>
+                <div id="score">HighScore:0</div>
+
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
